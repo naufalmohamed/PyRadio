@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FM App</title>
+    <style>
+        /* Add styles for the page */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .video-player {
+            width: 80%;
+            max-width: 720px;
+            height: auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FM App Video Player</h1>
+    <div class="video-container">
+        
+        <video class="video-player" controls>
+            <source src="https://ssl.shoutcaststreaming.us:8077/index.html/stream" type="audio/mpeg">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+
+</html>
